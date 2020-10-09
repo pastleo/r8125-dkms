@@ -13,7 +13,7 @@ makedepends=(linux-headers)
 source=("https://github.com/ibmibmibm/r8125/archive/${pkgver}.tar.gz"
         'dkms.conf')
 sha256sums=('75196ec98afcefbb6706307104d32131a27abba24ac333633790264968d548d6'
-            '7a6b42b6ebbd76ae3c40e10f824c2dae88448fab3ba074916b3be5c2b4bef448')
+            '14edcaee7ef019bc39d2ec71b06e06422254d9cfe676e16d9e7848a3842df9f3')
 
 build() {
   _kernver=$(</usr/src/linux/version)
